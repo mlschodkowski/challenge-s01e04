@@ -6,7 +6,6 @@ import { readStatus } from './status.js';
 import { Layout } from './views/layout.js';
 import { StatusBoard } from './views/status.js';
 import { DigestPage } from './views/digest.js';
-import { readNight } from './digest/reader.js';
 
 export function createApp(config: RigConfig = loadConfig()) {
   const app = new Hono();
